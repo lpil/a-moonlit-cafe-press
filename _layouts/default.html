@@ -9,7 +9,7 @@
   <title>A Moonlit Cafe Press</title>
 </head>
 
-<body>
+<body class="{{ page.bodyclass }}">
   <div class="page-container">
     <div class="page-content">
       <a class="page-title" href="{{ '/' | relative_url }}">
@@ -26,12 +26,13 @@
         </ul>
       </nav>
 
-
-      {{ content }}
+      <main role="main">
+        {{ content }}
+      </main>
     </div>
 
     <div class="page-sidebar">
-      <h2>Books</h2>
+      <!-- <h2>Books</h2>
       <div>TODO: photo</div>
       <p>TODO: words</p>
       <p>
@@ -39,7 +40,7 @@
         perspiciatis non quaerat eligendi esse vel animi dicta quam, at, iure
         nobis! Atque dignissimos, neque consequatur dolores nostrum laborum optio?
       </p>
-      <div>TODO: buy area!!</div>
+      <div>TODO: buy area!!</div> -->
     </div>
   </div>
 </body>
