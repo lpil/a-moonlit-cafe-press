@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 :root {
+  --brick-red: #aa4a44;
 }
 
 * {
   box-sizing: border-box;
+}
+
+a {
+  color: var(--brick-red);
 }
 
 img {
