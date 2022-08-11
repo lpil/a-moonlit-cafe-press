@@ -10,7 +10,38 @@
 </head>
 
 <body>
-  {{ content }}
+  <div class="page-container">
+    <div class="page-content">
+      <a class="page-title" href="{{ '/' | relative_url }}">
+        <h1>A Moonlit Cafe Press</h1>
+      </a>
+
+      <p class="page-tagline">come as you are</p>
+
+      <nav class="page-nav">
+        <ul>
+          <li><a href="{{ '/about' | relative_url }}">About</a>
+          <li><a href="{{ '/books' | relative_url }}">Books</a>
+          <li><a href="{{ '/submit' | relative_url }}">Submit</a>
+        </ul>
+      </nav>
+
+
+      {{ content }}
+    </div>
+
+    <div class="page-books">
+      <h2>Books</h2>
+      <div>TODO: photo</div>
+      <p>TODO: words</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et placeat
+        perspiciatis non quaerat eligendi esse vel animi dicta quam, at, iure
+        nobis! Atque dignissimos, neque consequatur dolores nostrum laborum optio?
+      </p>
+      <div>TODO: buy area!!</div>
+    </div>
+  </div>
 </body>
 
 </html>

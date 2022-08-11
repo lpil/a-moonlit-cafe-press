@@ -37,40 +37,41 @@ a {
   justify-content: center;
 }
 
-.home-content,
-.home-books {
+.page-content,
+.page-books {
   padding: 2rem;
   min-height: 100vh;
 }
 
-.home-content {
+.page-content {
   flex: 2;
   min-width: 600px;
 }
 
-.home-content h1 {
+.page-title {
+  color: black;
   text-align: center;
 }
 
-.home-books {
+.page-books {
   flex: 1;
   min-width: 400px;
 }
 
-.home-tagline {
+.page-tagline {
   text-align: center;
 }
 
-.home-nav {
+.page-nav {
   text-transform: uppercase;
 }
 
-.home-nav ul {
+.page-nav ul {
   padding: 0;
   text-align: center;
 }
 
-.home-nav li {
+.page-nav li {
   list-style: none;
   display: inline-block;
   margin: 0 2rem;
