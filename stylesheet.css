@@ -1,7 +1,4 @@
-@font-face {
-  font-family: 'Anton';
-  src: url("/fonts/Anton-Regular.ttf") format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 :root {
 }
@@ -16,8 +13,8 @@ img {
 
 body {
   margin: 0;
-  font-size: 18px;
-  font-family: "Anton", sans-serif;
+  font-size: 16px;
+  font-family: "Roboto Mono", monospace;
 }
 
 h1,
