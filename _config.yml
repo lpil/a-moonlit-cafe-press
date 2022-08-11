@@ -1,5 +1,6 @@
 title: A Moonlit Cafe Press
 description: A printer and distributer of tiny books.
+base_url: https://moonlitcafe.co.uk
 
 defaults:
   -
