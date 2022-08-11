@@ -30,6 +30,7 @@ a {
 }
 
 .page-container {
+  position: relative;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -38,14 +39,14 @@ a {
 }
 
 .page-content,
-.page-books {
+.page-sidebar {
   padding: 2rem;
-  min-height: 100vh;
+  max-width: 100%;
 }
 
 .page-content {
   flex: 2;
-  min-width: 600px;
+  width: 600px;
 }
 
 .page-title {
@@ -53,9 +54,9 @@ a {
   text-align: center;
 }
 
-.page-books {
+.page-sidebar {
   flex: 1;
-  min-width: 400px;
+  width: 400px;
 }
 
 .page-tagline {
@@ -75,4 +76,26 @@ a {
   list-style: none;
   display: inline-block;
   margin: 0 2rem;
+}
+
+.home-image {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+
+@media (max-width: 1000px) {
+  .page-content {
+    /* Force a 1 column layout */
+    flex-basis: 100%;
+  }
+
+  .page-sidebar {
+    padding-top: 0;
+  }
+
+  .page-content,
+  .page-sidebar {
+    max-width: 800px;
+  }
 }
